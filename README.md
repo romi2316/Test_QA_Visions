@@ -179,7 +179,9 @@ Corriger la logique de récupération pour renvoyer le statut 200 lorsque la tâ
 
 # Conclusion :
 
-Les tests effectués sur l'API Todos ont confirmé la conformité aux spécifications CRUD de base, validant ainsi sa fiabilité et sa robustesse. Cependant,en plus des recommandations ces dessus, la représentation du code d'erreur 500 ne se révèle pas suffisamment spécifique pour catégoriser les diverses erreurs rencontrées. Afin d'améliorer la gestion des erreurs,Il est préconisé d'adopter des codes de statut plus pertinents en accord avec la nature de l'erreur, pour une identification précise des situations exceptionnelles.
+Les tests effectués sur l'API Todos ont confirmé la conformité aux spécifications CRUD de base, validant ainsi sa fiabilité et sa robustesse.
+
+Cependant,en plus des recommandations ces dessus, la représentation du code d'erreur 500 ne se révèle pas suffisamment spécifique pour catégoriser les diverses erreurs rencontrées. Afin d'améliorer la gestion des erreurs,Il est préconisé d'adopter des codes de statut plus pertinents en accord avec la nature de l'erreur, pour une identification précise des situations exceptionnelles.
 
 En résumé, bien que les succès actuels soient notables, ces recommandations visent à améliorer davantage l'API Todos, assurant ainsi une meilleure expérience utilisateur.
 
